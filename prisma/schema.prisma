@@ -93,3 +93,10 @@ model book {
   bookSynopsis String?
   bookAuthor   String?
 }
+
+model vendor {
+  vendorID      Int     @id @default(autoincrement())
+  vendorName    String?
+  vendorAddress String?
+  vendorStatus  String?
+}
